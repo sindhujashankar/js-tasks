@@ -1,5 +1,4 @@
-const priceOfApple = 76;
-if(priceOfApple === priceOfApple)
-{
-    console.log(Boolean(priceOfApple))
+const priceOfApple = NaN;
+if (!priceOfApple) {
+  console.log("I'm False");
 }

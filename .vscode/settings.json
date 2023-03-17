@@ -1,4 +1,5 @@
 {
-  "editor.formatOnSave": false,
-  "html.format.templating": true
+  "editor.formatOnSave": true,
+  "html.format.templating": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
