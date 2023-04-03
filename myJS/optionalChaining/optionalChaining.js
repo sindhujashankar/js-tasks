@@ -23,7 +23,7 @@ const users = [
 
 for (let i = 0; i < users.length; i++) {
   //const details = users.
-  console.log(users[i].name);
-  console.log(users[i].degree);
-  console.log(users[i].address.place);
+  console.log(users[i]?.name);
+  console.log(users[i]?.degree);
+  console.log(users[i].address?.place);
 }
